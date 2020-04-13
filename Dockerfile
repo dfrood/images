@@ -3,7 +3,7 @@
 # Environment: Java (glibc support)
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM        openjdk:8-jre-slim
+FROM        adoptopenjdk:8u242-b08-jre-hotspot
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
